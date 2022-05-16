@@ -14,17 +14,26 @@
 }
 
 body {
+    font-family: "Poppins", sans-serif;
     background-color: var(--negro);
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    gap: 50px;
+    background: var(--negro);
+}
+
+.pregunta {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
     background: var(--blanco);
     height: 491px;
     width: 460px;
+    border-radius: 10px;
 }
