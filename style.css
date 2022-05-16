@@ -8,8 +8,23 @@
 
 :root {
     --blanco: #FFFFFF;
-    --negro: #00000000;
+    --negro: #000000;
     --azul: #151A41;
     --rosa: #FF0099;
 }
 
+body {
+    background-color: var(--negro);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background: var(--blanco);
+    height: 491px;
+    width: 460px;
+}
