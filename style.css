@@ -37,3 +37,33 @@ body {
     width: 460px;
     border-radius: 10px;
 }
+
+.soporte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.boton {
+    background-color: var(--blanco);
+    height: 40px;
+    width: 40px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.botoncito {
+    background-color: var(--rosa);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 0px var(--rosa);
+}
