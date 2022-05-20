@@ -30,13 +30,13 @@ body {
 .pregunta {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     background: var(--blanco);
     height: 491px;
     width: 460px;
     border-radius: 10px;
     gap: 30px;
+    margin: 20px 20px;
 }
 
 .soporte {
@@ -75,6 +75,51 @@ body {
 .extremos {
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-content: space-between;
+    align-content: space-around;
+}
+
+.extremos p {
+    font-size: 12px;
+}
+
+.bastante {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h4 {
+    color: var(--azul);
+}
+
+.terminos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+label {
+    font-size: 14px;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    
+    /* background-color: #FF0099; */
+    color: var(--azul);
+}
+
+.boton2 {
+    justify-content: center;
+    height: 70px;
+    width: 300px;
+    border: 1px solid grey;
+    background-color: var(--blanco);
+    border-radius: 5px;
+    color: var(--azul);
+    font-size: 1.1em;
 }
